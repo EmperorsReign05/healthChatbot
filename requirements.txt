@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+pdfplumber
+pip install -r requirements.txt
