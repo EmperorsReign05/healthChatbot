@@ -4,13 +4,16 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { MessageCircle, Map, BarChart3, Info } from "lucide-react"
+import { MessageCircle, Map, BarChart3, Info, Syringe, AlertTriangle, HelpCircle } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const navItems = [
   { href: "/chat", label: "Chat", icon: MessageCircle },
   { href: "/map", label: "Health Map", icon: Map },
   { href: "/dashboard", label: "Dashboard", icon: BarChart3 },
+  { href: "/vaccines", label: "Vaccines", icon: Syringe },
+  { href: "/alerts", label: "Alerts", icon: AlertTriangle },
+  { href: "/faq", label: "FAQ", icon: HelpCircle },
   { href: "/about", label: "About", icon: Info },
 ]
 
